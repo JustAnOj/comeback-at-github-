@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>sign-in/log-in</title>
+    <link rel="shortcut icon" href="stuffs/favicons/favicon (4).ico" type="image/x-icon">
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body background="page.jpg">
+<header>
+    <h1>
+       <a href="file:///home/justanoj/Documents/charity%20website/index.html" target="_top" ><img src="favicon.ico"></a>
+        Sign-in/log-in
+    </h1>
+    
+   
+</header>
+    <div class="hero">
+    <div class="form-box">
+    <div class="button-box">
+        <div id="btn"></div>
+        <button  type="button" class="toggle-btn" onclick="login()">Log In</button>
+        <button  type="button" class="toggle-btn" onclick="register()">Sign Up</button>
+    </div>
+
+   
+<form id="lod" class="input-group">
+    <input type="text" class="input-field" placeholder="User ID" required>
+    <input type="password" class="input-field" placeholder="Enter Password" required><br><br>
+    <input type="checkbox" class="checkbox"><span>Remember Password</span>  <br><br>
+    <button type="submit" class="submit-btn"><a href="file:///home/justanoj/Documents/charity%20website/index.html">Log IN</a></button>
+</form>   
+<form id="reg" class="input-group">
+    <input type="text" class="input-field" placeholder="User ID" required>
+    <input type="email" class="input-field" placeholder="Email ID" required>
+    <input type="password" class="input-field" placeholder="Enter Password" required><br><br>
+    <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions.</span>  <br><br>
+    <button type="submit" class="submit-btn"><a href="file:///home/justanoj/Documents/charity%20website/index.html">Sign Up</a></button>
+</form>  
+</div>
+<h2>Copyright © 2022 freewillcharity.com</h2>
+</div>
+<script>
+    var x =document.getElementById("lod");
+    var y =document.getElementById("reg");
+    var z =document.getElementById("btn");
+    function register(){
+        x.style.left="-450px";
+        y.style.left="50px";
+        z.style.left="110px";
+    }
+     function login(){
+        x.style.left="50px";
+        y.style.left="450px";
+        z.style.left="0px";
+    }
+</script><br><br><br><br><b><br>
+</body>
+</html>
